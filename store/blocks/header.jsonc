@@ -6,9 +6,7 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": [
-      "sticky-layout#desktop"
-    ]
+    "children": ["sticky-layout#desktop"]
   },
   "sticky-layout#desktop": {
     "props": {
@@ -22,17 +20,19 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "headermenu"
     },
+
+    //Estilizando o que irá aparecer no header, limpei um pouco -Brendon
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      "search-bar",
       "locale-switcher",
-      "login",
       "minicart.v2"
     ]
   },
+
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
@@ -48,8 +48,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "url": "https://nerdin.com.br/img/empresa/1176.png", //Adicionei url do logo da acct -Brendon
+      "width": "140",
+      "height": "38"
     }
   },
   "header-layout.mobile": {

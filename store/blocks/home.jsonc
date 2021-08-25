@@ -1,15 +1,7 @@
 {
-  "store.home": { 
-    "blocks": [
-      "rich-text"
-    ]
-  },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
-    }
+  "store.home": {
+    "blocks": ["tab-layout#header"]
+    /*Adicionado na home o tab-layout. Será que tem alguma forma de deixar o titulo das abas 
+    no header e o conteúdo na home? -Brendon*/
   }
 }
