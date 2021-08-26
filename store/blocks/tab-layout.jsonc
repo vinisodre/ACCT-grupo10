@@ -28,13 +28,13 @@
   "tab-list.item#prospect": {
     "props": {
       "tabId": "prospect",
-      "label": "NOVIDADE"
+      "label": "NOVIDADES"
     }
   },
   "tab-list.item#products": {
     "props": {
       "tabId": "products",
-      "label": "erhwrhjerhrherh"
+      "label": "PRODUTOS"
     }
   },
 
