@@ -28,7 +28,7 @@
   "tab-list.item#prospect": {
     "props": {
       "tabId": "prospect",
-      "label": "NOVIDADES"
+      "label": "NOVIDADE"
     }
   },
   "tab-list.item#products": {
