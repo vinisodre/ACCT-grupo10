@@ -9,18 +9,101 @@
   },
   "footer-layout.mobile": { 
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer"      
     ]
   },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
+  "flex-layout.row#footer":{
+    "children":[
+      "flex-layout.col#footerCertificado",
+      "flex-layout.col#footerLogo",
+      "flex-layout.col#footerBrasil",
+      "flex-layout.col#footerEspanha",
+      "flex-layout.col#footerEUA"
     ]
   },
-  "image": {
+
+  "flex-layout.col#footerCertificado":{
+    "children": ["image#certificado"]
+  },
+
+  "image#certificado": {
     "props": {
+      "blockClass": "certificado",
       "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "src": "https://acct.global/wp-content/uploads/2021/07/selo-gptw-2021.svg"
+    }
+  },
+  "flex-layout.col#footerLogo":{
+    "children":["image#logo","social-networks"]
+  },
+  
+  "image#logo":{
+    "props":{
+      "blockClass": "logoACCT",
+      "src": "https://acct.global/wp-content/uploads/2021/06/logo-acct-black.svg",
+      "width": 100
+    }
+  },
+  "social-networks":{
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/company/acctglobal/"
+        },
+        {
+          "name": "youtube",
+          "url": "https://www.youtube.com/channel/UCv-y0Z8ZIu6kP-MpebdIVZA"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/acct.global"
+        }        
+      ]
+    }
+  },
+  "flex-layout.col#footerBrasil":{
+    "children":["rich-text#paisBrasil","rich-text#enderecoBrasil1","rich-text#enderecoBrasil2"]
+  },
+  "rich-text#paisBrasil":{
+    "props":{
+      "text": "BRASIL"
+    }
+  },
+  "rich-text#enderecoBrasil1":{
+    "props":{
+      "text": "Al. Prof. Lucas Nogueira Garcez, \n1395 - Atibaia - SP"
+    }
+  },
+  "rich-text#enderecoBrasil2":{
+    "props":{
+      "text":"Av. das Nações Unidas, 11.857 \n8º Andar - Brooklin – São Paulo - SP"
+    }
+  },
+  "flex-layout.col#footerEspanha":{
+    "children":["rich-text#paisEspanha","rich-text#enderecoEspanha1"]
+  },
+  "rich-text#paisEspanha":{
+    "props":{
+      "text": "ESPANHA"
+    }
+  },
+  "rich-text#enderecoEspanha1":{
+    "props":{
+      "text": "Carrer Provença, 339 \n08037 - Barcelona"
+    }
+  },
+  "flex-layout.col#footerEUA":{
+    "children":["rich-text#paisEUA","rich-text#enderecoEUA1"]
+  },
+  "rich-text#paisEUA":{
+    "props":{
+      "text": "ESTADOS UNIDOS"
+    }
+  },
+  "rich-text#enderecoEUA1":{
+    "props":{
+      "text": "12 East 49th Street NY \n10017 - New York"
     }
   }
 }
