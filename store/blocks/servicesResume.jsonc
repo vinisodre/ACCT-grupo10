@@ -1,0 +1,108 @@
+{
+    "responsive-layout.desktop#desktopBoxBanner":{
+        "children":["flex-layout.row#Row1","flex-layout.row#Row2"]
+    },
+    "responsive-layout.mobile#mobileBoxBanner":{
+        "children":["flex-layout.row#Row1","flex-layout.row#Row2"]
+    },
+    //linha 1
+    "flex-layout.row#Row1":{
+        "children":["modal-trigger#qualityAssurance","modal-trigger#growthData"]
+    },
+    //linha 1 - Quality Assurance
+    "modal-trigger#qualityAssurance":{
+        "children":["info-card#imageQualityAssurance", "modal-layout#qualityAssurance"]
+    },
+    "info-card#imageQualityAssurance":{
+        "props":{
+            "blockClass": "firstCard",
+            "isFullModeStyle": true,
+            "imageUrl":"https://acct.global/wp-content/uploads/2020/11/flip-delivery-squads.jpg",
+            "headline": "Quality Assurance",
+            "callToActionMode": null
+        }
+    },
+    "modal-layout#qualityAssurance":{
+        "children":["info-card#qualityAssurance"]
+    },
+    "info-card#qualityAssurance":{
+        "props":{
+            "headline": "Confiança e credibilidade",
+            "subhead": "Um sistema de garantia de qualidade tem como objetivo aumentar a confiança e a credibilidade de produtos, processos e serviços. Ao mesmo tempo que melhora os processos de trabalho ea eficiência, além de permitir que a empresa tenha máximo controle e prevenção contra defeitos e mal funcionamento.",
+            "callToActionMode": null
+        }
+    },
+    //linha 1 - Growth e Data
+    "modal-trigger#growthData":{
+        "children":["info-card#imageGrowthData", "modal-layout#growthData"]
+    },
+    "info-card#imageGrowthData":{
+        "props":{
+            "blockClass": "firstCard",
+            "isFullModeStyle": true,
+            "imageUrl":"https://acct.global/wp-content/uploads/2020/11/flip-growth.jpg",
+            "headline": "Growth e Data",
+            "callToActionMode": null
+        }
+    },
+    "modal-layout#growthData":{
+        "children":["info-card#growthData"]
+    },
+    "info-card#growthData":{
+        "props":{
+            "headline": "Insights para o amanhã",
+            "subhead": "Os dados são a nova moeda, portanto, a aplicação de um processo de análise de dados é fundamental para as empresas na era digital. O processo de coleta, organização, descrição, análise e interpretação de dados pode fornecer aos tomadores de decisão as iformações necessárias para prever o futuro.",
+            "callToActionMode": null
+        }
+    },
+    //linha 2
+    "flex-layout.row#Row2":{
+        "children":["modal-trigger#experienceDesign","modal-trigger#tecnologia"]
+    },
+    //linha 2 - Experience Design
+    "modal-trigger#experienceDesign":{
+        "children":["info-card#imageExperienceDesign", "modal-layout#experienceDesign"]
+    },
+    "info-card#imageExperienceDesign":{
+        "props":{
+            "blockClass": "firstCard",
+            "isFullModeStyle": true,
+            "imageUrl":"https://acct.global/wp-content/uploads/2020/11/flip-exp-design.jpg",
+            "headline": "Experience Design",
+            "callToActionMode": null
+        }
+    },
+    "modal-layout#experienceDesign":{
+        "children":["info-card#experienceDesign"]
+    },
+    "info-card#experienceDesign":{
+        "props":{
+            "headline": "Conectando com pessoas",
+            "subhead": "Experience design é uma questão de empatia. Ao criar experiências, estamos tentando ver o mundo através dos olhos do cliente e imaginar o que ele estará procurando ao navegar em nossos sistemas. A experiência do usuário é uma ferramenta estratégica de negócios se você aplicar aos seus projetos e processos de forma inteligente.",
+            "callToActionMode": null
+        }
+    },
+    //linha 2 - Tecnologia
+    "modal-trigger#tecnologia":{
+        "children":["info-card#imagetecnologia", "modal-layout#tecnologia"]
+    },
+    "info-card#imagetecnologia":{
+        "props":{
+            "blockClass": "firstCard",
+            "isFullModeStyle": true,
+            "imageUrl":"https://acct.global/wp-content/uploads/2020/11/flip-tecnology.jpg",
+            "headline": "Tecnologia",
+            "callToActionMode": null
+        }
+    },
+    "modal-layout#tecnologia":{
+        "children":["info-card#tecnologia"]
+    },
+    "info-card#tecnologia":{
+        "props":{
+            "headline": "Criando o futuro",
+            "subhead": "Na ACCT vivemos e respiramos o desenvolvimento de software. Mais de 60% de nossos funcionários são engenheiros de software. Como uma empresa enraizada nas melhores práticas de desenvolvimento, nossa responsabilidade como engenheiros e criadores se expressa através do desenvolvimento de soluções digitais.",
+            "callToActionMode": null
+        }
+    }
+}
