@@ -1,0 +1,9 @@
+{
+    "store.custom#products": {
+        "path": "/products"
+    },
+
+    "store.custom#lead": {
+        "path": "/lead"
+    }
+}
