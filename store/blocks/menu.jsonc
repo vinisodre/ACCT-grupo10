@@ -1,0 +1,47 @@
+{
+    "vtex.menu@2.x:menu#simpleMenu":{
+        "props":{
+            "items":[
+                {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/", // aqui é onde a página será redirecionada
+                      "noFollow": false,
+                      "tagTitle": "about-us",
+                      "text": "Sobre Nós"
+                    }
+                },
+                {
+                    "id": "menu-item-lead",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/lead", // aqui é onde a página será redirecionada
+                      "noFollow": false,
+                      "tagTitle": "lead",
+                      "text": "Novidades"
+                    }
+                },
+                {
+                    "id": "menu-item-products",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/products", // aqui é onde a página será redirecionada
+                        "noFollow": false,
+                        "tagTitle": "products",
+                        "text": "Produtos"
+                    }
+                }
+            ]
+        }
+    }
+}
