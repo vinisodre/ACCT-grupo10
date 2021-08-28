@@ -13,8 +13,3 @@ adicionar o titulo das abas dentro do header ainda -Brendon */
   margin-left: auto;
   margin-right: auto;
 }
-
-.container{
-  padding-left: 300px; /* para centralizar mais as imagens e texto na tela */
-  padding-right: 300px; /* problema: o footer ta indo junto e a imagem de tecnologia ta curta dms */
-}
