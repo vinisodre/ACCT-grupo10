@@ -31,11 +31,11 @@ const leadForm = () => {
         <div>
             <form onSubmit= {(e)=> onSubmit(e)}>
                 <label htmlFor="name">Nome</label>
-                <input onChange={(e)=>handle(e)} id="name" value={data.name} placeHolder="name" type="text"></input>
+                <input onChange={(e)=>handle(e)} id="name" value={data.name} placeholder="name" type="text"></input>
                 <label htmlFor="email">Email</label>
-                <input onChange={(e)=>handle(e)} id="email" value={data.email} placeHolder="email" type="email"></input>
+                <input onChange={(e)=>handle(e)} id="email" value={data.email} placeholder="email" type="email"></input>
                 <label htmlFor="phone">Telefone</label>
-                <input onChange={(e)=>handle(e)} id="phone" value={data.phone} placeHolder="phone" type="number"></input>
+                <input onChange={(e)=>handle(e)} id="phone" value={data.phone} placeholder="phone" type="number"></input>
                 <button>Enviar</button>
             </form>
         </div>
