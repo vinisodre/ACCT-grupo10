@@ -5,7 +5,9 @@
       "rich-text#about-us",
       "flex-layout.row#about-us",
       "responsive-layout.desktop#desktopBoxBanner",
-      "responsive-layout.mobile#mobileBoxBanner"
+      "responsive-layout.mobile#mobileBoxBanner",
+      "rich-text#captura",
+      "newsletter-form#captura"
     ]
     /*Adicionado na home o tab-layout. Será que tem alguma forma de deixar o titulo das abas 
     no header e o conteúdo na home? -Brendon*/
@@ -51,5 +53,7 @@
       "maxWidth": "100px"
     }
   }
+
+
 }
 
