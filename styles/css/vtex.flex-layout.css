@@ -1,6 +1,10 @@
 .flexRow--headermenu {
   height: 90px;
+  background: #fff;
 }
 
 /* Tentei estilizar a altura do header pra ficar da mesma do site da acct, mas nao consegui 
 adicionar o titulo das abas dentro do header ainda -Brendon */
+.flexRowContent--main-header-mobile{
+  background: #fff;
+}
