@@ -3,7 +3,7 @@
         "blocks":["flex-layout.row#prospect"]
     },
     "flex-layout.row#prospect":{
-        "children":["rich-text#prospect"]
+        "children":["rich-text#prospect", "lead-form"]
     },
     "rich-text#prospect": {
         "props": {
