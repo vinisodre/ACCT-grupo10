@@ -13,7 +13,10 @@
       "flex-layout.row#trusted2",
       "rich-text#titulotime",
       "rich-text#subtitulotime",
-      "slider-layout#time"
+      "slider-layout#time",
+      "rich-text#captura",
+      "newsletter-form#captura"
+
     ]
     /*Adicionado na home o tab-layout. Será que tem alguma forma de deixar o titulo das abas 
     no header e o conteúdo na home? -Brendon*/
