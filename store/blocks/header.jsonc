@@ -6,13 +6,13 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": ["sticky-layout#desktop","vtex.menu@2.x:menu#simpleMenu"]
+    "children": ["sticky-layout#desktop"]
   },
   "sticky-layout#desktop": {
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop"]
+    "children": ["flex-layout.row#desktop", "vtex.menu@2.x:menu#simpleMenu"]
   },
   "flex-layout.row#desktop": {
     "props": {
@@ -55,7 +55,7 @@
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#mobile","vtex.menu@2.x:menu#simpleMenu"]
+    "children": ["sticky-layout#mobile", "vtex.menu@2.x:menu#simpleMenu"]
   },
   "sticky-layout#mobile": {
     "children": ["flex-layout.row#mobile"]
@@ -77,9 +77,6 @@
     }
   },
   "drawer": {
-    "children": [
-      "login",
-      "minicart.v2"
-    ]
+    "children": ["login", "minicart.v2"]
   }
 }
