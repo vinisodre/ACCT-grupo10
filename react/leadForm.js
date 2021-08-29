@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Container, Content, Input, Label, Button} from './styles'
 import Axios from "axios";
 
 const leadForm = () => {
@@ -28,17 +29,17 @@ const leadForm = () => {
     }
 
     return(
-        <div>
-            <form onSubmit= {(e)=> onSubmit(e)}>
-                <label htmlFor="name">Nome</label>
-                <input onChange={(e)=>handle(e)} id="name" value={data.name} placeholder="name" type="text"></input>
-                <label htmlFor="email">Email</label>
-                <input onChange={(e)=>handle(e)} id="email" value={data.email} placeholder="email" type="email"></input>
-                <label htmlFor="phone">Telefone</label>
-                <input onChange={(e)=>handle(e)} id="phone" value={data.phone} placeholder="phone" type="number"></input>
-                <button>Enviar</button>
-            </form>
-        </div>
+        <Container>
+            <Content onSubmit= {(e)=> submit(e)}>
+                <Label htmlFor="name">Nome</Label>
+                <Input onChange={(e)=>handle(e)} id="name" value={data.name} placeholder="name" type="text"></Input>
+                <Label htmlFor="email">Email</Label>
+                <Input onChange={(e)=>handle(e)} id="email" value={data.email} placeholder="email" type="email"></Input>
+                <Label htmlFor="phone">Telefone</Label>
+                <Input onChange={(e)=>handle(e)} id="phone" value={data.phone} placeholder="phone" type="number"></Input>
+                <Button>Enviar</Button>
+            </Content>
+        </Container>
     )
 }
 
