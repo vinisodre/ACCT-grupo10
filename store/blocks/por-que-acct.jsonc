@@ -1,0 +1,128 @@
+{
+    "rich-text#por-que-acct": {
+        "props": {
+            "text": "### Por que a ACCT?_",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#icones-por-que": {
+        "children": [
+            "flex-layout.row#imagens-icones"
+        ]
+    },
+    "flex-layout.row#imagens-icones": {
+        "children": [
+            "flex-layout.col#engenharia",
+            "flex-layout.col#habilidades",
+            "flex-layout.col#mercado",
+            "flex-layout.col#suporte",
+            "flex-layout.col#seguranca"
+        ]
+    },
+    "flex-layout.col#engenharia": {
+        "children": [
+            "image#engenharia",
+            "rich-text#engenharia"
+        ]
+    },
+    "image#engenharia": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2020/10/icon_dashboard.svg",
+            "maxHeight": 100,
+            "maxWidth": 100,
+            "blockClass": "icone-engenharia"
+        }
+    },
+    "rich-text#engenharia": {
+        "props": {
+            "text": "Engenharia de Dados de Alta Complexidade",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#habilidades": {
+        "children": [
+            "image#habilidades",
+            "rich-text#habilidades"
+        ]
+    },
+    "image#habilidades": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2020/09/icon_development.svg",
+            "maxHeight": 100,
+            "maxWidth": 100,
+            "blockClass": "icone-habilidades"
+        }
+    },
+    "rich-text#habilidades": {
+        "props": {
+            "text": "Habilidades Técnicas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#mercado": {
+        "children": [
+            "image#mercado",
+            "rich-text#mercado"
+        ]
+    },
+    "image#mercado": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2020/09/icon_integration.svg",
+            "maxHeight": 100,
+            "maxWidth": 100,
+            "blockClass": "icone-mercado"
+        }
+    },
+    "rich-text#mercado": {
+        "props": {
+            "text": "Líder de Mercado em Implementações VTEX IO",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#suporte": {
+        "children": [
+            "image#suporte",
+            "rich-text#suporte"
+        ]
+    },
+    "image#suporte": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2020/10/icon_customer-service.svg",
+            "maxHeight": 100,
+            "maxWidth": 100,
+            "blockClass": "icone-suporte"
+        }
+    },
+    "rich-text#suporte": {
+        "props": {
+            "text": "Excelente Suporte ao Cliente",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#seguranca": {
+        "children": [
+            "image#seguranca",
+            "rich-text#seguranca"
+        ]
+    },
+    "image#seguranca": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2020/10/icon_shield.svg",
+            "maxHeight": 100,
+            "maxWidth": 100,
+            "blockClass": "icone-seguranca"
+        }
+    },
+    "rich-text#seguranca": {
+        "props": {
+            "text": "Segurança e Confiabilidade",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

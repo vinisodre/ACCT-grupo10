@@ -5,7 +5,18 @@
       "rich-text#about-us",
       "flex-layout.row#about-us",
       "responsive-layout.desktop#desktopBoxBanner",
-      "responsive-layout.mobile#mobileBoxBanner"
+      "responsive-layout.mobile#mobileBoxBanner",
+      "rich-text#por-que-acct",
+      "flex-layout.row#icones-por-que",
+      "rich-text#1",
+      "flex-layout.row#trusted1",
+      "flex-layout.row#trusted2",
+      "rich-text#titulotime",
+      "rich-text#subtitulotime",
+      "slider-layout#time",
+      "rich-text#captura",
+      "newsletter-form#captura"
+
     ]
     /*Adicionado na home o tab-layout. Será que tem alguma forma de deixar o titulo das abas 
     no header e o conteúdo na home? -Brendon*/
@@ -33,7 +44,7 @@
     "children": ["rich-text#about-us-text", "form-app"]
   },
   "flex-layout.col#imageACCT": {
-    "children": ["image#acct"]
+    "children": ["image#acct"] 
   },
   "image#acct": {
     "props": {
@@ -43,7 +54,6 @@
       "blockClass": "acctimage"
     }
   },
-
   "rich-text#about-us-text": {
     "props": {
       "text": "Somos uma empresa de arquitetura e engenharia de software com 11 anos de história solucionando problemas de negócios com tecnologia. \n\n A ACCT passou por um rápido crescimento nos últimos 5 anos e hoje tem mais de 200 funcionários, em 3 países diferentes. \n\n Nós também temos o orgulho de dizer que a ACCT esteve envolvida em algumas das maiores implementações e projetos de e-commerce do mundo. \n\n Clientes globais como Unilever, Ab-Inbev, Carrefour e Whirpool nos escolheram para desenvolver seus produtos digitais porque confiam em nossa capacidade de fornecer soluções com a mais alta qualidade de design, engenharia e desenvolvimento",
@@ -52,3 +62,4 @@
     }
   }
 }
+
