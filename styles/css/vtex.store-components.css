@@ -18,6 +18,7 @@
   opacity: 70%;
   -webkit-transform: scale(0.92);
   transform: scale(0.92);
+  transition: 1s;
 }
 
 .imageElement--image-carrefour,
@@ -47,4 +48,5 @@
   opacity: 80%;
   -webkit-transform: scale(0.92);
   transform: scale(0.92);
+  transition: 1s;
 }
