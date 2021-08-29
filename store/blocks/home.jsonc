@@ -37,20 +37,14 @@
     }
   },
   "flex-layout.row#about-us": {
-    "children": [
-      "flex-layout.col#about-us-text",
-      "flex-layout.col#imageACCT"
-    ]
+    "children": ["flex-layout.col#about-us-text", "flex-layout.col#imageACCT"]
   },
+
   "flex-layout.col#about-us-text": {
-    "children": [
-      "rich-text#about-us-text"
-    ]
+    "children": ["rich-text#about-us-text", "form-app"]
   },
   "flex-layout.col#imageACCT": {
-    "children": [
-      "image#acct"
-    ]
+    "children": ["image#acct"] 
   },
   "image#acct": {
     "props": {
@@ -68,3 +62,4 @@
     }
   }
 }
+

@@ -1,16 +1,16 @@
 {
-    "store.custom#lead":{
-        "blocks":["flex-layout.row#prospect"]
-    },
-    "flex-layout.row#prospect":{
-        "children":["rich-text#prospect"]
-    },
-    "rich-text#prospect": {
-        "props": {
-          "text": "Formulário Prospecto",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-1"
-        }
+  "store.custom#lead": {
+    "blocks": ["flex-layout.row#prospect"]
+  },
+  "flex-layout.row#prospect": {
+    "children": ["rich-text#prospect"]
+  },
+  "rich-text#prospect": {
+    "props": {
+      "text": "Formulário Prospecto",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
     }
+  }
 }
