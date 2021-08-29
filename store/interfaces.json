@@ -1,5 +1,5 @@
 {
-  "form-app": {
-    "component": "AppForm"
-  }
+    "lead-form":{
+        "component": "leadForm"
+    }
 }

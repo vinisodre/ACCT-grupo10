@@ -2,5 +2,8 @@
   "name": "react",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "styled-components": "^5.3.1"
 }

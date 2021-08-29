@@ -1,16 +1,26 @@
 {
-  "store.custom#lead": {
-    "blocks": ["flex-layout.row#prospect"]
-  },
-  "flex-layout.row#prospect": {
-    "children": ["rich-text#prospect"]
-  },
-  "rich-text#prospect": {
-    "props": {
-      "text": "Formulário Prospecto",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+    "store.custom#lead":{
+        "blocks":["responsive-layout.desktop#leadDesktop", "responsive-layout.mobile#leadMobile"]
+    },
+    "responsive-layout.desktop#leadDesktop":{
+        "children":["flex-layout.row#title","flex-layout.row#form"]
+    },
+    "responsive-layout.mobile#leadMobile":{
+        "children":["flex-layout.row#title","flex-layout.row#form"]
+    },
+    "flex-layout.row#title":{
+        "children":["rich-text#prospect"]
+    },
+    "rich-text#prospect": {
+        "props": {
+          "text": "Formulário Prospecto",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heading-1"
+        }
+    },
+    "flex-layout.row#form":{
+        "children":["lead-form"]
     }
-  }
+
 }
