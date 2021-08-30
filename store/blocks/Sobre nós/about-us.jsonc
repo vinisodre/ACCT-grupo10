@@ -1,0 +1,64 @@
+{
+    "store.custom#about-us": {
+        "blocks": [
+            "rich-text#about-us-1",
+            "rich-text#about-us",
+            "flex-layout.row#about-us",
+            "rich-text#por-que-acct",
+            "flex-layout.row#icones-por-que",
+            "rich-text#1",
+            "flex-layout.row#trusted1",
+            "flex-layout.row#trusted2",
+            "rich-text#titulotime",
+            "rich-text#subtitulotime",
+            "slider-layout#time"
+        ]
+    },
+    "rich-text#about-us-1":{
+        "props":{
+            "text": "### SOBRE NÓS<span>_</span>",
+            "horizontalAlign": "left",
+            "blockClass": "about-us-1"
+        }
+    },
+    "rich-text#about-us": {
+        "props": {
+            "text": "Projetando o <span>futuro do comércio digital</span>",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-1",
+            "blockClass": "about-us-text"
+        }
+    },
+    "flex-layout.row#about-us": {
+        "children": [
+            "flex-layout.col#about-us-text",
+            "flex-layout.col#imageACCT"
+        ]
+    },
+    "flex-layout.col#about-us-text": {
+        "children": [
+            "rich-text#about-us-text"
+        ]
+    },
+    "flex-layout.col#imageACCT": {
+        "children": [
+            "image#acct"
+        ]
+    },
+    "image#acct": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2020/10/img-about-us-1536x1053.jpg",
+            "maxHeight": "400px",
+            "maxWidth": "500px",
+            "blockClass": "acctimage"
+        }
+    },
+    "rich-text#about-us-text": {
+        "props": {
+            "text": "Somos uma empresa de arquitetura e engenharia de software com 11 anos de história solucionando problemas de negócios com tecnologia. \n\n A ACCT passou por um rápido crescimento nos últimos 5 anos e hoje tem mais de 200 funcionários, em 3 países diferentes. \n\n Nós também temos o orgulho de dizer que a ACCT esteve envolvida em algumas das maiores implementações e projetos de e-commerce do mundo. \n\n Clientes globais como Unilever, Ab-Inbev, Carrefour e Whirpool nos escolheram para desenvolver seus produtos digitais porque confiam em nossa capacidade de fornecer soluções com a mais alta qualidade de design, engenharia e desenvolvimento",
+            "blockClass": "about-us",
+            "maxWidth": "100px"
+        }
+    }
+}

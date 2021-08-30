@@ -42,7 +42,8 @@
         "props": {
             "text": "Engenharia de Dados de Alta Complexidade",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "blockclass-por-que-acct"
         }
     },
     "flex-layout.col#habilidades": {
@@ -66,7 +67,8 @@
         "props": {
             "text": "Habilidades Técnicas",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "blockclass-por-que-acct"
         }
     },
     "flex-layout.col#mercado": {
@@ -90,7 +92,8 @@
         "props": {
             "text": "Líder de Mercado em Implementações VTEX IO",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "blockclass-por-que-acct"
         }
     },
     "flex-layout.col#suporte": {
@@ -114,7 +117,8 @@
         "props": {
             "text": "Excelente Suporte ao Cliente",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "blockclass-por-que-acct"
         }
     },
     "flex-layout.col#seguranca": {
@@ -138,7 +142,8 @@
         "props": {
             "text": "Segurança e Confiabilidade",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "blockclass-por-que-acct"
         }
     }
 }
