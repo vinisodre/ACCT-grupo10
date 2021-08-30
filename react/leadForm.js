@@ -7,7 +7,8 @@ const leadForm = () => {
     const [data, setData] =  useState({
         name:"",
         email:"",
-        phone:""
+        phone:"",
+        cpf:""
     })
 
     function submit(e){
@@ -15,7 +16,8 @@ const leadForm = () => {
         Axios.post(url, {
             nome: data.name,
             email: data.email,
-            telefone: parseInt(data.phone)
+            telefone: parseInt(data.phone),
+            cpf: parseInt(data.cpf)
         })
         .then(res=>{
             console.log(res.data)
@@ -37,6 +39,8 @@ const leadForm = () => {
                 <Input onChange={(e)=>handle(e)} id="email" value={data.email} placeholder="email" type="email"></Input>
                 <Label htmlFor="phone">Telefone</Label>
                 <Input onChange={(e)=>handle(e)} id="phone" value={data.phone} placeholder="phone" type="number"></Input>
+                <Label htmlFor="cpf">CPF</Label>
+                <Input onChange={(e)=>handle(e)} id="cpf" value={data.cpf} placeholder="cpf" type="number"></Input>
                 <Button>Enviar</Button>
             </Content>
         </Container>
