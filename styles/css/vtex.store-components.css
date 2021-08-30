@@ -4,6 +4,22 @@
 }
 
 /* Configuração da logo -Brendon */
-.infoCardHeadline--firstCard{
+.infoCardHeadline--firstCard {
   color: #fff;
+}
+
+.infoCardContainer--firstCard {
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.infoCardContainer--firstCard:first-child :first-child {
+  color: #fff;
+}
+
+.infoCardHeadline--firstCard:first-child :first-child :first-child {
+  color: #fcc200;
+  font-weight: bold;
 }
