@@ -50,3 +50,7 @@
   transform: scale(0.92);
   transition: 1s;
 }
+
+.imageElement--image-time{
+  border-radius: 50%;
+}
