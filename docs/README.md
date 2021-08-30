@@ -1,15 +1,15 @@
 # Desafio final Hiring Coders
 ## Grupo 10 ACCT
 
-Integrantes
-Bruno Momose
-Erycson José
-Vinicius Sodré
-Leonardo Felicidade
-Adriana Evangelista
-Brendon Vieira
-Gabriela Ferreira
-Werner Hecht
+Integrantes:
+- [Bruno Momose](https://github.com/bmomose)
+- [Erycson José](https://github.com/ErycsonJose)
+- [Vinicius Sodré](https://github.com/vinisodre)
+- [Leonardo Felicidade](https://github.com/Hujaio)
+- [Adriana Evangelista](https://github.com/adiefco)
+- [Brendon Vieira](https://github.com/brendongvieira)
+- [Gabriela Ferreira](https://github.com/gabrielatferreira)
+- [Werner Hecht](https://github.com/Junior-Hecht)
 
 ## Objetivo
 Recriar a página da ACCT e implementar verificações no banco de dados usando as tecnologias desenvolvidas ao longo do curso HiringCoders#2.
@@ -39,4 +39,11 @@ A AWS proporcionou diversas soluções que ajudaram a completar este desafio.
 Foram usados o Banco de Dados Dynamo, o  AWS Lambda e...
 O objetivo era fazer a verificação se o cliente que adquiriu o produto no site já era *prospect*. Sendo positivo, o cadastro deveria ser alterado de *prospect* para *client* 
 
+### O Repositório Backend
+O repositório de integração entre VTEX e AWS que executa a verificação do *prospect* no banco de dados e o altera para *client* após a compra está [AQUI](https://github.com/brendongvieira/service-grupo10acct).
+
 ### ACCT
+#### Temática do desafio: ACCT
+A ACCT é uma empresa de arquitetura e engenharia de software com 11 anos de história solucionando problemas de negócios com tecnologia que atua em 3 países.
+
+Neste frontend usamos a logo da ACCT, suas cores, missão e valores da ACCT em uma página de **"Sobre"**. Esta página mostra as virtudes do serviço da ACCT.

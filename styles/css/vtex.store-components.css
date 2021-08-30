@@ -80,3 +80,7 @@
   color: #fcc200;
   font-weight: 700;
 }
+
+.imageElement--image-time {
+  border-radius: 50%;
+}

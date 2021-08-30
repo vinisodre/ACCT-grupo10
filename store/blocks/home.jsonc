@@ -91,10 +91,11 @@
   },
   "rich-text#about-us": {
     "props": {
-      "text": "Projetando o futuro do comércio digital",
+      "text": "Projetando o <span>futuro do comércio digital</span>",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "font": "t-heading-1",
+      "blockClass": "about-us-text"
     }
   },
   "flex-layout.row#about-us": {
