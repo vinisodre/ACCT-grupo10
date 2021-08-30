@@ -22,8 +22,14 @@
 .infoCardHeadline--firstCard:first-child :first-child :first-child {
   color: #fcc200;
   font-weight: bold;
+}
 
-  /* css da parte do "por que ACCT_" */
+.imageElement--acctimage{
+  width: 100%;
+  height: 100%;
+}
+
+ /* css da parte do "por que ACCT_" */
 
 .imageElement--icone-engenharia:hover,
 .imageElement--icone-habilidades:hover,
@@ -68,4 +74,37 @@
 
 .imageElement--image-time{
   border-radius: 50%;
+}
+
+.infoCardContainer--info-card-time{
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  text-align: center;
+  width: 100%;
+
+}
+
+.infoCardImage--info-card-time{
+  order: 1;
+  border-radius: 50%;
+  border: #dedede 3px solid;
+}
+
+.infoCardTextContainer--info-card-time{
+  order: 2;
+  height: 100px;
+}
+
+.infoCardHeadline--info-card-time{
+  font-size: 16px;
+}
+
+.infoCardSubhead--info-card-time{
+  font-size: 13px;
+  margin-top: 0px;
+}
+
+.containet{
+  padding-left: 300px;
 }
