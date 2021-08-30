@@ -12,7 +12,7 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop", "vtex.menu@2.x:menu#simpleMenu"]
+    "children": ["flex-layout.row#desktop"]
   },
   "flex-layout.row#desktop": {
     "props": {
