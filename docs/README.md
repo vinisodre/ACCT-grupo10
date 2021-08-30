@@ -3,7 +3,7 @@
 
 Integrantes
 Bruno Momose
-Erycson José
+[Erycson José](https://github.com/ErycsonJose)
 Vinicius Sodré
 Leonardo Felicidade
 Adriana Evangelista
