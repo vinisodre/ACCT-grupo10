@@ -18,4 +18,35 @@
   opacity: 70%;
   -webkit-transform: scale(0.92);
   transform: scale(0.92);
+  transition: 1s;
+}
+
+.imageElement--image-carrefour,
+.imageElement--image-samsung,
+.imageElement--image-ablnbev,
+.imageElement--image-stanley,
+.imageElement--image-motorola,
+.imageElement--image-unilever,
+.imageElement--image-whirlpool,
+.imageElement--image-universal,
+.imageElement--image-decathlon,
+.imageElement--image-cea{
+  filter: grayscale(1);
+}
+
+.imageElement--image-carrefour:hover,
+.imageElement--image-samsung:hover,
+.imageElement--image-ablnbev:hover,
+.imageElement--image-stanley:hover,
+.imageElement--image-motorola:hover,
+.imageElement--image-unilever:hover,
+.imageElement--image-whirlpool:hover,
+.imageElement--image-universal:hover,
+.imageElement--image-decathlon:hover,
+.imageElement--image-cea:hover{
+  filter: grayscale(0);
+  opacity: 80%;
+  -webkit-transform: scale(0.92);
+  transform: scale(0.92);
+  transition: 1s;
 }
