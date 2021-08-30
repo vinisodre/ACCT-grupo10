@@ -41,7 +41,7 @@
   },
 
   "flex-layout.col#about-us-text": {
-    "children": ["rich-text#about-us-text", "form-app"]
+    "children": ["rich-text#about-us-text"]
   },
   "flex-layout.col#imageACCT": {
     "children": ["image#acct"] 
