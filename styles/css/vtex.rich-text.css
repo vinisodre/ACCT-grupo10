@@ -1,4 +1,8 @@
-}
-.paragraph--endereco :first-child {
-  color: #fcc200;
+{
+.paragraph--about-us-text :first-child,
+.heading--por-que-acct :first-child,
+.heading--text-trusted-by :first-child,
+.heading--text-time :first-child,
+.heading--subtitulo-time :first-child{
+    color: #FCC200
 }

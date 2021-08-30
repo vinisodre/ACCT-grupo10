@@ -1,9 +1,10 @@
 {
     "rich-text#1": {
         "props": {
-          "text": "### Trusted by_",
+          "text": "### Trusted by<span>_</span>",
           "textAlignment": "CENTER",
-          "textPosition": "CENTER"
+          "textPosition": "CENTER",
+          "blockClass": "text-trusted-by"
         }
       },
       "flex-layout.row#trusted1": {
