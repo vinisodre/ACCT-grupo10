@@ -39,6 +39,9 @@ A AWS proporcionou diversas soluções que ajudaram a completar este desafio.
 Foram usados o Banco de Dados Dynamo, o  AWS Lambda e...
 O objetivo era fazer a verificação se o cliente que adquiriu o produto no site já era *prospect*. Sendo positivo, o cadastro deveria ser alterado de *prospect* para *client* 
 
+### O Repositório Backend
+O repositório de integração entre VTEX e AWS que executa a verificação do *prospect* no banco de dados e o altera para *client* após a compra está #### [AQUI](https://github.com/brendongvieira/service-grupo10acct).
+
 ### ACCT
 #### Temática do desafio: ACCT
 
