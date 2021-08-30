@@ -44,7 +44,6 @@ O repositório de integração entre VTEX e AWS que executa a verificação do *
 
 ### ACCT
 #### Temática do desafio: ACCT
+A ACCT é uma empresa de arquitetura e engenharia de software com 11 anos de história solucionando problemas de negócios com tecnologia que atua em 3 países.
 
-Neste frontend usamos a temática da ACCT, com logo da ACCT cores da
-ACCT e a missão e valores da ACCT em uma página de **"Sobre"**. Esta página mostra as virtudes do serviço da ACCT.
-Foram desenvolvidas outras páginas para completar o desafio como a **Home**...
+Neste frontend usamos a logo da ACCT, suas cores, missão e valores da ACCT em uma página de **"Sobre"**. Esta página mostra as virtudes do serviço da ACCT.
