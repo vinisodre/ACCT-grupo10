@@ -1,62 +1,47 @@
-# Minimum Boilerplate Theme
+# Desafio final Hiring Coders
+## Grupo 10 ACCT
 
-The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
+Integrantes:
+- [Bruno Momose](https://github.com/bmomose)
+- [Erycson José](https://github.com/ErycsonJose)
+- [Vinicius Sodré](https://github.com/vinisodre)
+- [Leonardo Felicidade](https://github.com/Hujaio)
+- [Adriana Evangelista](https://github.com/adiefco)
+- [Brendon Vieira](https://github.com/brendongvieira)
+- [Gabriela Ferreira](https://github.com/gabrielatferreira)
+- [Werner Hecht](https://github.com/Junior-Hecht)
 
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
+## Objetivo
+Recriar a página da ACCT e implementar verificações no banco de dados usando as tecnologias desenvolvidas ao longo do curso HiringCoders#2.
 
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
+### Como instalar o projeto?
+É importante ter acesso ao ecossistema VTEX, do contrário, não será possível instalar o projeto.
 
-## Configuration
+    $vtex login {sua conta}  
+    $vtex unlink --all
+    $vtex use {seu workspace}  
+    $vtex link  
+    $vtex browse
 
-### Step 1 -  Basic setup
+### O que foi usado para o desenvolvimento do Projeto
+#### VTEX IO
+O Curso Hiring Coders teve como objetivo principal a formação de Desenvolvedores Juniores com foco principal na tecnologia VTEX IO.
+Ela é uma aplicação *Low Code* com o objetivo de facilitar o desenvolvimento *frontend* de lojas virtuais.
 
-Access the VTEX IO [basic setup guide](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) and follow all the given steps. 
+##### Frontend
+Toda a estrutura do site foi desenvolvida usando VTEX. Por trás dela, rodam diversas tecnologias, em especial o React Js.
 
-By the end of the setup, you should have the VTEX command line interface (Toolbelt) installed along with a developer workspace you can work in.
+##### Backend
+A estrutura proporcionada pela VTEX facilitou a criação de produtos e serviços. O *Backend* VTEX deve processar toda a compra feita pelo usuário e comunicar-se com a API da AWS.
 
-### Step 2 - Cloning the Minimum Boilerplate Theme repository
+#### AWS
+A AWS proporcionou diversas soluções que ajudaram a completar este desafio. 
+Foram usados o Banco de Dados Dynamo, o  AWS Lambda e...
+O objetivo era fazer a verificação se o cliente que adquiriu o produto no site já era *prospect*. Sendo positivo, o cadastro deveria ser alterado de *prospect* para *client* 
 
-[Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository to your local files to be able to effectively start working on it.
+### ACCT
+#### Temática do desafio: ACCT
 
-Then, access the repository's directory using your terminal. 
-
-### Step 3 - Editing the `Manifest.json`
-
-Once in the repository directory, it is time to edit the Minimum Boilerplate `manifest.json` file. 
-
-Once you are in the file, you must replace the `vendor` and `account` values. `vendor` is the account name you are working on and `account` is anything you want to name your theme. For example:
-
-```json
-{
-  "vendor": "storecomponents",
-  "name": "my-test-theme",
-}
-```
-
-### Step 4 -  Installing required apps
-
-In order to use Store Framework and work on your store theme, it is needed to have both `vtex.store-sitemap` and `vtex.store` installed.
-
-Run  `vtex list`  and check whether those apps are already installed. 
-
-If they aren't, run the following command to install them: `vtex install vtex.store-sitemap vtex.store -f`
-
-### Step 5 -  Uninstalling any existing theme
-
-By running `vtex list`,  you can verify if any theme is installed.
-
-It is common to already have a `vtex.store-theme`  installed when you start the store's front development process. 
-
-Therefore, if you find it in the app's list, copy its name and use it together with the command `vtex uninstall`. For example:
-
-```json
-vtex uninstall vtex.store-theme
-```
-
-### Step 6- Run and preview your store
-
-Then time has come to upload all the changes you made in your local files to the platform. For that, use the `vtex link` command. 
-
-If the process runs without any errors, the following message will be displayed: `App linked successfully`. Then, run the `vtex browse` command to open a browser window having your linked store in it.
-
-This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
+Neste frontend usamos a temática da ACCT, com logo da ACCT cores da
+ACCT e a missão e valores da ACCT em uma página de **"Sobre"**. Esta página mostra as virtudes do serviço da ACCT.
+Foram desenvolvidas outras páginas para completar o desafio como a **Home**...

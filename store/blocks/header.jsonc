@@ -6,13 +6,13 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": ["sticky-layout#desktop","vtex.menu@2.x:menu#simpleMenu"]
+    "children": ["sticky-layout#desktop"]
   },
   "sticky-layout#desktop": {
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop"]
+    "children": ["flex-layout.row#desktop", "vtex.menu@2.x:menu#simpleMenu"]
   },
   "flex-layout.row#desktop": {
     "props": {
@@ -28,10 +28,15 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      "login",
+      "flex-layout.row#menu-header",
+      "flex-layout.col#spacer",
       "locale-switcher",
       "minicart.v2"
     ]
+  },
+
+  "flex-layout.row#menu-header": {
+    "children": ["vtex.menu@2.x:menu#simpleMenu"]
   },
 
   "flex-layout.col#spacer": {
@@ -55,7 +60,7 @@
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#mobile","vtex.menu@2.x:menu#simpleMenu"]
+    "children": ["sticky-layout#mobile"]
   },
   "sticky-layout#mobile": {
     "children": ["flex-layout.row#mobile"]
@@ -65,7 +70,7 @@
       "drawer",
       "logo",
       "flex-layout.col#spacer",
-      "login",
+      "flex-layout.row#menu-header",
       "locale-switcher",
       "minicart.v2"
     ],
@@ -77,9 +82,6 @@
     }
   },
   "drawer": {
-    "children": [
-      "login",
-      "minicart.v2"
-    ]
+    "children": ["login", "minicart.v2"]
   }
 }
