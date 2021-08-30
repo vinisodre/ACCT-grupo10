@@ -1,26 +1,131 @@
 {
-    "store.custom#lead":{
-        "blocks":["responsive-layout.desktop#leadDesktop", "responsive-layout.mobile#leadMobile"]
-    },
-    "responsive-layout.desktop#leadDesktop":{
-        "children":["flex-layout.row#title","flex-layout.row#form"]
-    },
-    "responsive-layout.mobile#leadMobile":{
-        "children":["flex-layout.row#title","flex-layout.row#form"]
-    },
-    "flex-layout.row#title":{
-        "children":["rich-text#prospect"]
-    },
-    "rich-text#prospect": {
-        "props": {
-          "text": "Formulário Prospecto",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-1"
-        }
-    },
-    "flex-layout.row#form":{
-        "children":["lead-form"]
+  "store.custom#lead": {
+    "blocks": [
+      "responsive-layout.desktop#leadDesktop",
+      "responsive-layout.mobile#leadMobile"
+    ]
+  },
+  "responsive-layout.desktop#leadDesktop": {
+    "children": ["flex-layout.row#body", "flex-layout.row#form"]
+  },
+  "responsive-layout.mobile#leadMobile": {
+    "children": ["flex-layout.row#body", "flex-layout.row#form"]
+  },
+  "flex-layout.row#body": {
+    "children": ["flex-layout.col#form", "flex-layout.row#offices"]
+  },
+  "flex-layout.col#form": {
+    "children": ["rich-text#prospect"]
+  },
+  "flex-layout.row#offices": {
+    "children": [
+      "flex-layout.col#offices-sp",
+      "flex-layout.col#offices-ny",
+      "flex-layout.col#offices-bcn"
+    ],
+    "props": {
+      "blockClass": "offices"
     }
-
+  },
+  "flex-layout.col#offices-sp": {
+    "children": [
+      "image#offices-sp",
+      "rich-text#offices-sp-title",
+      "rich-text#offices-sp"
+    ],
+    "props": {
+      "blockClass": "offices-sp"
+    }
+  },
+  "image#offices-sp": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/contact-saopaulo.jpg"
+    }
+  },
+  "rich-text#offices-sp-title": {
+    "props": {
+      "text": "São Paulo",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4",
+      "blockClass": "offices-title"
+    }
+  },
+  "rich-text#offices-sp": {
+    "props": {
+      "text": "Al. Professor Lucas Nogueira Garcez, 1395 \n Atibaia/SP",
+      "blockClass": "offices-text"
+    }
+  },
+  "flex-layout.col#offices-ny": {
+    "children": [
+      "image#offices-ny",
+      "rich-text#offices-ny-title",
+      "rich-text#offices-ny"
+    ],
+    "props": {
+      "blockClass": "offices-ny"
+    }
+  },
+  "image#offices-ny": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/contact-newyork.jpg"
+    }
+  },
+  "rich-text#offices-ny-title": {
+    "props": {
+      "text": "Nova York",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4",
+      "blockClass": "offices-title"
+    }
+  },
+  "rich-text#offices-ny": {
+    "props": {
+      "text": "12 East 49th Street NY 10017",
+      "blockClass": "offices-text"
+    }
+  },
+  "flex-layout.col#offices-bcn": {
+    "children": [
+      "image#offices-bcn",
+      "rich-text#offices-bcn-title",
+      "rich-text#offices-bcn"
+    ],
+    "props": {
+      "blockClass": "offices-bcn"
+    }
+  },
+  "image#offices-bcn": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/contact-barcelona.jpg"
+    }
+  },
+  "rich-text#offices-bcn-title": {
+    "props": {
+      "text": "Barcelona",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4",
+      "blockClass": "offices-title"
+    }
+  },
+  "rich-text#offices-bcn": {
+    "props": {
+      "text": "Carrer Provença, 339 - 08037",
+      "blockClass": "offices-text"
+    }
+  },
+  "rich-text#prospect": {
+    "props": {
+      "text": "Solicite nosso contato",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4"
+    }
+  },
+  "flex-layout.row#form": {
+    "children": ["lead-form"]
+  }
 }
