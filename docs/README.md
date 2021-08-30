@@ -36,7 +36,7 @@ A estrutura proporcionada pela VTEX facilitou a criação de produtos e serviço
 
 #### AWS
 A AWS proporcionou diversas soluções que ajudaram a completar este desafio. 
-Foram usados o Banco de Dados Dynamo, o  AWS Lambda e...
+Foram usados o Banco de Dados DynamoDB, o  AWS Lambda e API Gateway.
 O objetivo era fazer a verificação se o cliente que adquiriu o produto no site já era *prospect*. Sendo positivo, o cadastro deveria ser alterado de *prospect* para *client* 
 
 ### O Repositório Backend

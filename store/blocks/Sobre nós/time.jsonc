@@ -1,0 +1,276 @@
+{
+    "rich-text#titulotime": {
+        "props": {
+            "text": "### Time<span>_</span>",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "text-time"
+        }
+    },
+    "rich-text#subtitulotime": {
+        "props": {
+            "text": "#### <span>A ACCT tem uma equipe interna de alto desempenho</span> com recursos de 360 graus para fornecer soluções de tecnologia de alta complexidade.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "subtitulo-time"
+        }
+    },
+    "slider-layout#time": {
+    "children": [
+        "info-card#pessoa1",
+        "info-card#pessoa2",
+        "info-card#pessoa3",
+        "info-card#pessoa4",
+        "info-card#pessoa5",
+        "info-card#pessoa6",
+        "info-card#pessoa7",
+        "info-card#pessoa8",
+        "info-card#pessoa9",
+        "info-card#pessoa10",
+        "info-card#pessoa11",
+        "info-card#pessoa12",
+        "info-card#pessoa13",
+        "info-card#pessoa14",
+        "info-card#pessoa15",
+        "info-card#pessoa16",
+        "info-card#pessoa17",
+        "info-card#pessoa18",
+        "info-card#pessoa19"
+    ],
+    "props": {
+        "autoplay": {
+            "timeout": 3000,
+            "stopOnHover": true
+        },
+        "showPaginationDots": "never"
+    }
+},
+"info-card#pessoa1":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/02/barbara-cruz-150x150.png",
+        "textPosition": "CENTER",
+        "headline": "Bárbara Cruz",
+        "subhead": "Design Experience",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+},
+"info-card#pessoa2":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/02/ana-lebre-150x150.png",
+        "textPosition": "CENTER",
+        "headline": "Ana Lebre",
+        "subhead": "Sales Analyst",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+},
+"info-card#pessoa3":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/02/victor-angelotti-150x150.png",
+        "textPosition": "CENTER",
+        "headline": "Victor Angelotti",
+        "subhead": "Designer",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+},
+"info-card#pessoa4":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/02/camila-santos-150x150.png",
+        "textPosition": "CENTER",
+        "headline": "Camila Santos",
+        "subhead": "Sales Analyst",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+},
+"info-card#pessoa5":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/03/rafael-rossini-150x150.jpg",
+        "textPosition": "CENTER",
+        "headline": "Rafael Rossini",
+        "subhead": "Developer",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+},
+"info-card#pessoa6":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/02/frederico-heitmann-150x150.png",
+        "textPosition": "CENTER",
+        "headline": "Frederico Heitmann",
+        "subhead": "CEO & Partner",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+},
+"info-card#pessoa7":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/02/fabio-feichtinger-150x150.png",
+        "textPosition": "CENTER",
+        "headline": "Fábio Feichtinger",
+        "subhead": "CEO & Partner",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+},
+"info-card#pessoa8":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/02/andre-dudek-150x150.png",
+        "textPosition": "CENTER",
+        "headline": "André Dudek",
+        "subhead": "Diretor & Partner",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+},
+"info-card#pessoa9":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/02/fatima-raizaro-150x150.png",
+        "textPosition": "CENTER",
+        "headline": "Fátima Raizaro",
+        "subhead": "Head of RH",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+},
+"info-card#pessoa10":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/02/juan-nader-150x150.jpg",
+        "textPosition": "CENTER",
+        "headline": "Juan Nader",
+        "subhead": "Head of Marketing",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+},
+"info-card#pessoa11":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/02/anna-chimenes-150x150.png",
+        "textPosition": "CENTER",
+        "headline": "Anna Chimenes",
+        "subhead": "Head de Controladoria e Backoffice",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+},
+"info-card#pessoa12":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/02/marcos-cipriani-150x150.png",
+        "textPosition": "CENTER",
+        "headline": "Marcos Cipriani",
+        "subhead": "General Manager Europe",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+},
+"info-card#pessoa13":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/02/rafael-esberard-150x150.png",
+        "textPosition": "CENTER",
+        "headline": "Rafael Esberard",
+        "subhead": "SVP of Global sales",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+},
+"info-card#pessoa14":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/02/carlos-oliveira-150x150.png",
+        "textPosition": "CENTER",
+        "headline": "Carlos Oliveira",
+        "subhead": "Sales Manager Brasil",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+},
+"info-card#pessoa15":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/02/cecilia-pereira-150x150.png",
+        "textPosition": "CENTER",
+        "headline": "Cecília Pereira",
+        "subhead": "Head of Trainning and Development",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+},
+"info-card#pessoa16":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/02/urania-reis-150x150.png",
+        "textPosition": "CENTER",
+        "headline": "Urânia Reis",
+        "subhead": "Head of Quality Assurance",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+},
+"info-card#pessoa17":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/02/guilherme-cardoso-150x150.png",
+        "textPosition": "CENTER",
+        "headline": "Guilherme Cardoso",
+        "subhead": "Head of Engineering",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+},
+"info-card#pessoa18":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/02/rodrigo-de-gouveia-150x150.png",
+        "textPosition": "CENTER",
+        "headline": "Rodrigo de Gouveia",
+        "subhead": "Design Experience Director",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+},
+"info-card#pessoa19":{
+    "props": {
+        "isFullModeStyle": false,
+        "imageUrl": "https://acct.global/wp-content/uploads/2021/03/ammon-cunha-150x150.jpg",
+        "textPosition": "CENTER",
+        "headline": "Ammon Cunha",
+        "subhead": "Head of Business Intelligence",
+        "callToActionMode": "none",
+        "blockClass": "info-card-time",
+        "textAlignment": "CENTER"
+      }
+}
+}

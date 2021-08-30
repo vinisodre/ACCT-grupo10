@@ -23,6 +23,12 @@
   color: #fcc200;
   font-weight: bold;
 }
+
+.imageElement--acctimage {
+  width: 100%;
+  height: 100%;
+}
+
 /* css da parte do "por que ACCT_" */
 
 .imageElement--icone-engenharia:hover,
