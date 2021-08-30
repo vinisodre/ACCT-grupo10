@@ -1,15 +1,15 @@
 # Desafio final Hiring Coders
 ## Grupo 10 ACCT
 
-Integrantes
-Bruno Momose
-[Erycson José](https://github.com/ErycsonJose)
-Vinicius Sodré
-Leonardo Felicidade
-Adriana Evangelista
-Brendon Vieira
-Gabriela Ferreira
-Werner Hecht
+Integrantes:
+- [Bruno Momose](https://github.com/bmomose)
+- [Erycson José](https://github.com/ErycsonJose)
+- [Vinicius Sodré](https://github.com/vinisodre)
+- [Leonardo Felicidade](https://github.com/Hujaio)
+- [Adriana Evangelista](https://github.com/adiefco)
+- [Brendon Vieira](https://github.com/brendongvieira)
+- [Gabriela Ferreira](https://github.com/gabrielatferreira)
+- [Werner Hecht](https://github.com/Junior-Hecht)
 
 ## Objetivo
 Recriar a página da ACCT e implementar verificações no banco de dados usando as tecnologias desenvolvidas ao longo do curso HiringCoders#2.
