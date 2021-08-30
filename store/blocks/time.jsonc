@@ -1,0 +1,140 @@
+{
+    "rich-text#titulotime": {
+        "props": {
+            "text": "### Time_",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#subtitulotime": {
+        "props": {
+            "text": "#### A ACCT tem uma equipe interna de alto desempenho com recursos de 360 graus para fornecer soluções de tecnologia de alta complexidade.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "slider-layout#time": {
+        "children": [
+            "image#pessoa1",
+            "image#pessoa2",
+            "image#pessoa3",
+            "image#pessoa4",
+            "image#pessoa5",
+            "image#pessoa6",
+            "image#pessoa7",
+            "image#pessoa8",
+            "image#pessoa9",
+            "image#pessoa10",
+            "image#pessoa11",
+            "image#pessoa12",
+            "image#pessoa13",
+            "image#pessoa14",
+            "image#pessoa15",
+            "image#pessoa16",
+            "image#pessoa17",
+            "image#pessoa18",
+            "image#pessoa19"
+        ],
+        "props": {
+            "autoplay": {
+                "timeout": 3000,
+                "stopOnHover": true
+            }
+        }
+    },
+    "image#pessoa1": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/barbara-cruz-150x150.png"
+        }
+    },
+    "image#pessoa2": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/ana-lebre-150x150.png"
+        }
+    },
+    "image#pessoa3": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/victor-angelotti-150x150.png"
+        }
+    },
+    "image#pessoa4": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/camila-santos-150x150.png"
+        }
+    },
+    "image#pessoa5": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/03/rafael-rossini-150x150.jpg"
+        }
+    },
+    "image#pessoa6": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/frederico-heitmann-150x150.png"
+        }
+    },
+    "image#pessoa7": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/fabio-feichtinger-150x150.png"
+        }
+    },
+    "image#pessoa8": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/andre-dudek-150x150.png"
+        }
+    },
+    "image#pessoa9": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/fatima-raizaro-150x150.png"
+        }
+    },
+    "image#pessoa10": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/juan-nader-150x150.jpg"
+        }
+    },
+    "image#pessoa11": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/anna-chimenes-150x150.png"
+        }
+    },
+    "image#pessoa12": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/marcos-cipriani-150x150.png"
+        }
+    },
+    "image#pessoa13": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/rafael-esberard-150x150.png"
+        }
+    },
+    "image#pessoa14": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/carlos-oliveira-150x150.png"
+        }
+    },
+    "image#pessoa15": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/cecilia-pereira-150x150.png"
+        }
+    },
+    "image#pessoa16": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/urania-reis-150x150.png"
+        }
+    },
+    "image#pessoa17": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/guilherme-cardoso-150x150.png"
+        }
+    },
+    "image#pessoa18": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/rodrigo-de-gouveia-150x150.png"
+        }
+    },
+    "image#pessoa19": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/03/ammon-cunha-150x150.jpg"
+        }
+    }
+}

@@ -22,4 +22,16 @@
 .infoCardHeadline--firstCard:first-child :first-child :first-child {
   color: #fcc200;
   font-weight: bold;
+
+  /* css da parte do "por que ACCT_" */
+
+.imageElement--icone-engenharia:hover,
+.imageElement--icone-habilidades:hover,
+.imageElement--icone-mercado:hover,
+.imageElement--icone-suporte:hover,
+.imageElement--icone-seguranca:hover{
+  opacity: 70%;
+  -webkit-transform: scale(0.92);
+  transform: scale(0.92);
+
 }

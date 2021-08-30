@@ -1,6 +1,6 @@
 {
   "vendor": "hiringcoders202110",
-  "name": "acct-grupo10",
+  "name": "acctgrupo10",
   "version": "0.1.1",
   "builders": {
     "styles": "2.x",
@@ -48,6 +48,7 @@
     "vtex.add-to-cart-button": "0.x",
     "vtex.modal-layout": "0.x",
     "vtex.store-image": "0.x"
+    "vtex.store-newsletter": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
