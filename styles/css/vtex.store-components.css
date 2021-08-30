@@ -4,11 +4,26 @@
 }
 
 /* Configuração da logo -Brendon */
-.infoCardHeadline--firstCard{
+.infoCardHeadline--firstCard {
   color: #fff;
 }
 
-/* css da parte do "por que ACCT_" */
+.infoCardContainer--firstCard {
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.infoCardContainer--firstCard:first-child :first-child {
+  color: #fff;
+}
+
+.infoCardHeadline--firstCard:first-child :first-child :first-child {
+  color: #fcc200;
+  font-weight: bold;
+
+  /* css da parte do "por que ACCT_" */
 
 .imageElement--icone-engenharia:hover,
 .imageElement--icone-habilidades:hover,

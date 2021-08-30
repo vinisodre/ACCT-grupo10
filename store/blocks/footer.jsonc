@@ -2,27 +2,26 @@
   "footer": {
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
-  "footer-layout.desktop": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
+  "footer-layout.desktop": {
+    "children": ["flex-layout.row#footer"]
   },
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"      
-    ]
+  "footer-layout.mobile": {
+    "children": ["flex-layout.row#footer"]
   },
-  "flex-layout.row#footer":{
-    "children":[
+  "flex-layout.row#footer": {
+    "children": [
       "flex-layout.col#footerCertificado",
       "flex-layout.col#footerLogo",
       "flex-layout.col#footerBrasil",
       "flex-layout.col#footerEspanha",
       "flex-layout.col#footerEUA"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer"
+    }
   },
 
-  "flex-layout.col#footerCertificado":{
+  "flex-layout.col#footerCertificado": {
     "children": ["image#certificado"]
   },
 
@@ -33,18 +32,18 @@
       "src": "https://acct.global/wp-content/uploads/2021/07/selo-gptw-2021.svg"
     }
   },
-  "flex-layout.col#footerLogo":{
-    "children":["image#logo","social-networks"]
+  "flex-layout.col#footerLogo": {
+    "children": ["image#logo", "social-networks"]
   },
-  
-  "image#logo":{
-    "props":{
+
+  "image#logo": {
+    "props": {
       "blockClass": "logoACCT",
       "src": "https://acct.global/wp-content/uploads/2021/06/logo-acct-black.svg",
       "width": 100
     }
   },
-  "social-networks":{
+  "social-networks": {
     "props": {
       "socialNetworks": [
         {
@@ -58,51 +57,55 @@
         {
           "name": "Instagram",
           "url": "https://www.instagram.com/acct.global"
-        }        
+        }
       ]
     }
   },
-  "flex-layout.col#footerBrasil":{
-    "children":["rich-text#paisBrasil","rich-text#enderecoBrasil1","rich-text#enderecoBrasil2"]
+  "flex-layout.col#footerBrasil": {
+    "children": [
+      "rich-text#paisBrasil",
+      "rich-text#enderecoBrasil1",
+      "rich-text#enderecoBrasil2"
+    ]
   },
-  "rich-text#paisBrasil":{
-    "props":{
+  "rich-text#paisBrasil": {
+    "props": {
       "text": "BRASIL"
     }
   },
-  "rich-text#enderecoBrasil1":{
-    "props":{
+  "rich-text#enderecoBrasil1": {
+    "props": {
       "text": "Al. Prof. Lucas Nogueira Garcez, \n1395 - Atibaia - SP"
     }
   },
-  "rich-text#enderecoBrasil2":{
-    "props":{
-      "text":"Av. das Nações Unidas, 11.857 \n8º Andar - Brooklin – São Paulo - SP"
+  "rich-text#enderecoBrasil2": {
+    "props": {
+      "text": "Av. das Nações Unidas, 11.857 \n8º Andar - Brooklin – São Paulo - SP"
     }
   },
-  "flex-layout.col#footerEspanha":{
-    "children":["rich-text#paisEspanha","rich-text#enderecoEspanha1"]
+  "flex-layout.col#footerEspanha": {
+    "children": ["rich-text#paisEspanha", "rich-text#enderecoEspanha1"]
   },
-  "rich-text#paisEspanha":{
-    "props":{
+  "rich-text#paisEspanha": {
+    "props": {
       "text": "ESPANHA"
     }
   },
-  "rich-text#enderecoEspanha1":{
-    "props":{
+  "rich-text#enderecoEspanha1": {
+    "props": {
       "text": "Carrer Provença, 339 \n08037 - Barcelona"
     }
   },
-  "flex-layout.col#footerEUA":{
-    "children":["rich-text#paisEUA","rich-text#enderecoEUA1"]
+  "flex-layout.col#footerEUA": {
+    "children": ["rich-text#paisEUA", "rich-text#enderecoEUA1"]
   },
-  "rich-text#paisEUA":{
-    "props":{
+  "rich-text#paisEUA": {
+    "props": {
       "text": "ESTADOS UNIDOS"
     }
   },
-  "rich-text#enderecoEUA1":{
-    "props":{
+  "rich-text#enderecoEUA1": {
+    "props": {
       "text": "12 East 49th Street NY \n10017 - New York"
     }
   }
