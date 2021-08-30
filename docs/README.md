@@ -40,3 +40,8 @@ Foram usados o Banco de Dados Dynamo, o  AWS Lambda e...
 O objetivo era fazer a verificação se o cliente que adquiriu o produto no site já era *prospect*. Sendo positivo, o cadastro deveria ser alterado de *prospect* para *client* 
 
 ### ACCT
+#### Temática do desafio: ACCT
+
+Neste frontend usamos a temática da ACCT, com logo da ACCT cores da
+ACCT e a missão e valores da ACCT em uma página de **"Sobre"**. Esta página mostra as virtudes do serviço da ACCT.
+Foram desenvolvidas outras páginas para completar o desafio como a **Home**...
