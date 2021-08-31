@@ -5,5 +5,8 @@
 
     "store.custom#lead": {
         "path": "/lead"
+    },
+    "store.custom#about-us":{
+        "path": "/about-us"
     }
 }

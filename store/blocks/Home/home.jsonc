@@ -2,25 +2,42 @@
   "store.home": {
     "blocks": [
       "slider-layout#home-top",
-      "image#about-us",
-      "rich-text#about-us",
-      "flex-layout.row#about-us",
+      "flex-layout.row#gettoknow",
+      "flex-layout.row#trusted-by",
       "responsive-layout.desktop#desktopBoxBanner",
       "responsive-layout.mobile#mobileBoxBanner",
       "rich-text#por-que-acct",
       "flex-layout.row#icones-por-que",
-      "rich-text#1",
-      "flex-layout.row#trusted1",
-      "flex-layout.row#trusted2",
+      // "rich-text#1",
+      // "flex-layout.row#trusted1",
+      // "flex-layout.row#trusted2",
       "rich-text#titulotime",
       "rich-text#subtitulotime",
-      "slider-layout#time",
-      "rich-text#captura",
-      "newsletter-form#captura"
-
+      "slider-layout#time"
     ]
-    /*Adicionado na home o tab-layout. Será que tem alguma forma de deixar o titulo das abas 
-    no header e o conteúdo na home? -Brendon*/
+  },
+  "flex-layout.row#gettoknow": {
+    "children": ["info-card#gettoknow"]
+  },
+  "info-card#gettoknow": {
+    "props": {
+      "headline": "Buscamos constantemente a <span>liderança global\n<span>quando se trata de <span>soluções para comércio digital<span>.",
+      "subhead": "Quando o assunto é e-commerce, somos líderes! Desenvolvemos soluções para empresas que buscam crescimento. Seja a criação de um aplicativo móvel, um site totalmente novo ou aumentar o desempenho e a inteligência da sua organização, nós oferecemos o suporte necessário às empresas na era digital.",
+      "callToActionText": "Saiba mais sobre nós",
+      "textAlignment": "CENTER",
+      "isFullModeStyle": true,
+      "blockClass": "gettoknow-infocard"
+    }
+  },
+  "flex-layout.row#trusted-by": {
+    "children": [
+      "rich-text#1",
+      "flex-layout.row#trusted1",
+      "flex-layout.row#trusted2"
+    ],
+    "props": {
+      "blockClass": "trusted-by"
+    }
   },
   "slider-layout#home-top": {
     "props": {

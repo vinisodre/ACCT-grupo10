@@ -1,4 +1,47 @@
-}
 .paragraph--endereco :first-child {
   color: #fcc200;
+}
+
+.container--about-us-1{
+  background-image: url(https://acct.global/wp-content/uploads/2020/10/cover-about-us.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 5rem 0rem 5rem 0rem;
+}
+
+.wrapper--about-us{
+  font-size: 1.2rem;
+}
+
+.wrapper--blockclass-por-que-acct{
+  font-size: 14px;
+  color: #717786;
+  font-weight: bold;
+}
+
+.heading--about-us-1{
+  color: #fff;
+}
+
+.paragraph--about-us-text{
+  font-size: 3rem;
+}
+
+.heading--por-que-acct,
+.heading--text-trusted-by,
+.heading--text-time{
+  font-size: 2rem;
+}
+
+.heading--subtitulo-text{
+  font-size: 22px;
+}
+
+.heading--about-us-1 :first-child,
+.paragraph--about-us-text :first-child,
+.heading--por-que-acct :first-child,
+.heading--text-trusted-by :first-child,
+.heading--text-time :first-child,
+.heading--subtitulo-time :first-child{
+    color: #FCC200
 }

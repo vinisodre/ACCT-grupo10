@@ -9,7 +9,7 @@
                     "highlight": false,
                     "itemProps": {
                       "type": "internal",
-                      "href": "/", // aqui é onde a página será redirecionada
+                      "href": "/about-us", // aqui é onde a página será redirecionada
                       "noFollow": false,
                       "tagTitle": "about-us",
                       "text": "Sobre Nós"

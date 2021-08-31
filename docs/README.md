@@ -36,7 +36,14 @@ A estrutura proporcionada pela VTEX facilitou a criação de produtos e serviço
 
 #### AWS
 A AWS proporcionou diversas soluções que ajudaram a completar este desafio. 
-Foram usados o Banco de Dados Dynamo, o  AWS Lambda e...
+Foram usados o Banco de Dados DynamoDB, o  AWS Lambda e API Gateway.
 O objetivo era fazer a verificação se o cliente que adquiriu o produto no site já era *prospect*. Sendo positivo, o cadastro deveria ser alterado de *prospect* para *client* 
 
+### O Repositório Backend
+O repositório de integração entre VTEX e AWS que executa a verificação do *prospect* no banco de dados e o altera para *client* após a compra está [AQUI](https://github.com/brendongvieira/service-grupo10acct).
+
 ### ACCT
+#### Temática do desafio: ACCT
+A ACCT é uma empresa de arquitetura e engenharia de software com 11 anos de história solucionando problemas de negócios com tecnologia que atua em 3 países.
+
+Neste frontend usamos a logo da ACCT, suas cores, missão e valores da ACCT em uma página de **"Sobre"**. Esta página mostra as virtudes do serviço da ACCT.
