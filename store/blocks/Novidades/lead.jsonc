@@ -127,5 +127,10 @@
   },
   "flex-layout.row#form": {
     "children": ["lead-form"]
+  },
+  "image#form-lead": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2021/01/bg-form.jpg"
+    }
   }
 }

@@ -76,6 +76,7 @@
 }
 
 .infoCardHeadline--gettoknow-infocard {
+  margin: 20% 5% 5% 5%;
   text-align: center;
   font-size: 2rem;
   color: #040404 !important;
@@ -89,4 +90,25 @@
 
 .imageElement--image-time {
   border-radius: 50%;
+}
+
+.infoCardCallActionContainer--gettoknow-infocard :global(.vtex-button) {
+  background-color: #fff;
+  color: #5974c7 !important;
+  border-color: #5974c7 !important;
+}
+
+.infoCardCallActionContainer--gettoknow-infocard:hover {
+  background-color: #5974c7 !important;
+  color: #fff;
+}
+
+.infoCardSubhead--gettoknow-infocard {
+  color: #040404;
+  font-weight: 500;
+}
+
+.infoCardCallActionContainer--gettoknow-infocard {
+  align-self: center;
+  margin: 10% 5% 20% 5%;
 }
