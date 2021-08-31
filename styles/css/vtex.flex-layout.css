@@ -13,6 +13,13 @@ adicionar o titulo das abas dentro do header ainda -Brendon */
   align-items: center;
 }
 
+.infoCardTextContainer--gettoknow-infocard {
+  margin: 0 !important;
+}
+
+.infoCardHeadline--gettoknow-infocard :first-child :first-child {
+  color: #fcc200;
+}
 /* .infoCardTextContainer--firstCard::before {
   background-color: #fcc200;
   content: '<h3>Confiança e credibilidade<h3> \n Um sistema de garantia de qualidade tem como objetivo aumentar a confiança e a credibilidade de produtos, processos e serviços. Ao mesmo tempo que melhora os processos de trabalho ea eficiência, além de permitir que a empresa tenha máximo controle e prevenção contra defeitos e mal funcionamento.';

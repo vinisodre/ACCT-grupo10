@@ -6,14 +6,7 @@
       "flex-layout.row#trusted-by",
       "responsive-layout.desktop#desktopBoxBanner",
       "responsive-layout.mobile#mobileBoxBanner",
-      "rich-text#por-que-acct",
-      "flex-layout.row#icones-por-que",
-      // "rich-text#1",
-      // "flex-layout.row#trusted1",
-      // "flex-layout.row#trusted2",
-      "rich-text#titulotime",
-      "rich-text#subtitulotime",
-      "slider-layout#time"
+      "flex-layout.row#form"
     ]
   },
   "flex-layout.row#gettoknow": {
