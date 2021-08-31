@@ -56,3 +56,9 @@ adicionar o titulo das abas dentro do header ainda -Brendon */
 .flexCol--offices-sp .flexCol--offices-ny .flexCol--offices-bcn {
   margin: 10px !important;
 }
+
+.flexRowContent--trusted-by {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
