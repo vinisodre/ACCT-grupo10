@@ -1,7 +1,16 @@
 {   
     "store.custom#products":{
-        "blocks":["flex-layout.row#products"]
+        "blocks":[
+            "rich-text#product-background",
+            "flex-layout.row#products"]
 },
+"rich-text#product-background": {
+    "props": {
+      "text": "### PRODUTOS<span>_</span>",
+      "horizontalAlign": "left",
+      "blockClass": "product-background"
+    }
+  },
     "flex-layout.row#products":{
         "children":["search-result-layout.customQuery#product"]
     },
@@ -46,8 +55,8 @@
                 "name": "whole",
                 "component": "OneOrTwoLineSummary",
                 "itemsPerRow":{
-                    "(min-with:1300px)": 4,
-                    "desktop": 4,
+                    "(min-with:1300px)": 3,
+                    "desktop": 3,
                     "tablet":1,
                     "phone": 1
                 }

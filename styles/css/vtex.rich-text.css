@@ -14,7 +14,9 @@
   font-size: 1rem;
 }
 
-@media (min-width: 1200px) { .wrapper--about-us-1 { 
+@media (min-width: 1200px) { 
+  .wrapper--product-background,
+  .wrapper--about-us-1 { 
     margin-left: 180px;
    }}
 
@@ -24,14 +26,17 @@
   font-weight: bold;
 }
 
+.heading--product-background,
 .heading--about-us-1{
   color: #fff;
 }
 
 .paragraph--about-us-text{
   font-size: 3rem;
+  font-weight: bolder;
 }
 
+.heading--product-background,
 .heading--por-que-acct,
 .heading--text-trusted-by,
 .heading--text-time{
@@ -42,6 +47,7 @@
   font-size: 22px;
 }
 
+.heading--product-background :first-child,
 .heading--about-us-1 :first-child,
 .paragraph--about-us-text :first-child,
 .heading--por-que-acct :first-child,
@@ -57,6 +63,7 @@
   margin-bottom: 48px;
 }
 
+.container--about-us-text,
 .container--por-que-acct{
   margin-top: 128px;
 }
@@ -70,4 +77,13 @@
   padding-right: 200px;
   margin-bottom: -30px;
   margin-top: 192px
+}
+
+/* produtos */
+
+.container--product-background{
+  background-image: url(https://acct.global/wp-content/uploads/2020/10/cover-industries.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 5rem 0rem 5rem 0rem;
 }
