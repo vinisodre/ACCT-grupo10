@@ -26,7 +26,7 @@
             "text": "Projetando o <span>futuro do comércio digital</span>",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "font": "t-heading-1",
+            "font-family": "Open Sans, sans-serif",
             "blockClass": "about-us-text"
         }
     },
@@ -44,13 +44,16 @@
     "flex-layout.col#imageACCT": {
         "children": [
             "image#acct"
-        ]
+        ],
+        "props":{
+            "blockClass":"col-acctimage"
+        }
     },
     "image#acct": {
         "props": {
             "src": "https://acct.global/wp-content/uploads/2020/10/img-about-us-1536x1053.jpg",
-            "maxHeight": "400px",
-            "maxWidth": "500px",
+            "maxHeight": "369px",
+            "maxWidth": "538px",
             "blockClass": "acctimage"
         }
     },
@@ -58,6 +61,7 @@
         "props": {
             "text": "Somos uma empresa de arquitetura e engenharia de software com 11 anos de história solucionando problemas de negócios com tecnologia. \n\n A ACCT passou por um rápido crescimento nos últimos 5 anos e hoje tem mais de 200 funcionários, em 3 países diferentes. \n\n Nós também temos o orgulho de dizer que a ACCT esteve envolvida em algumas das maiores implementações e projetos de e-commerce do mundo. \n\n Clientes globais como Unilever, Ab-Inbev, Carrefour e Whirpool nos escolheram para desenvolver seus produtos digitais porque confiam em nossa capacidade de fornecer soluções com a mais alta qualidade de design, engenharia e desenvolvimento",
             "blockClass": "about-us",
+            "font-family": "Open Sans",
             "maxWidth": "100px"
         }
     }

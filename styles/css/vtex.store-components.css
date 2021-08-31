@@ -82,6 +82,11 @@
   font-weight: 500;
   font-family: 'Roboto';
 }
+.infoCardHeadline--info-card-time{
+  font-size: 16px;
+  font-family: "Open Sans, sans-serif";
+}
+
 .infoCardHeadline--gettoknow-infocard:last-child {
   color: #fcc200;
   font-weight: 700;
@@ -89,4 +94,15 @@
 
 .imageElement--image-time {
   border-radius: 50%;
+}
+
+.container{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.infoCardTextContainer--info-card-time{
+  padding-bottom: 200px;
+  padding-left: 0px;
+  padding-right: 0px;
 }

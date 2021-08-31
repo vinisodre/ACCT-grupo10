@@ -12,6 +12,8 @@
             "text": "#### <span>A ACCT tem uma equipe interna de alto desempenho</span> com recursos de 360 graus para fornecer soluções de tecnologia de alta complexidade.",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
+            "font-family": "Open Sans, sans-serif",
+            "font-weight": 400,
             "blockClass": "subtitulo-time"
         }
     },
@@ -42,7 +44,8 @@
             "timeout": 3000,
             "stopOnHover": true
         },
-        "showPaginationDots": "never"
+        "showPaginationDots": "never",
+        "blockClass": "slider-about-us"
     }
 },
 "info-card#pessoa1":{

@@ -4,6 +4,8 @@
         "text": "### Trusted by<span>_</span>",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": 400,
         "blockClass": "text-trusted-by"
       }
     },

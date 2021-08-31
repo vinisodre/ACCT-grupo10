@@ -9,9 +9,14 @@
   padding: 5rem 0rem 5rem 0rem;
 }
 
+.heading--subtitulo-time,
 .wrapper--about-us{
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
+
+@media (min-width: 1200px) { .wrapper--about-us-1 { 
+    margin-left: 180px;
+   }}
 
 .wrapper--blockclass-por-que-acct{
   font-size: 14px;
@@ -44,4 +49,25 @@
 .heading--text-time :first-child,
 .heading--subtitulo-time :first-child{
     color: #FCC200
+}
+
+.container--subtitulo-time{
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 48px;
+}
+
+.container--por-que-acct{
+  margin-top: 128px;
+}
+
+.container--text-trusted-by{
+  margin-top: 192px
+}
+
+.container--text-time{
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: -30px;
+  margin-top: 192px
 }
