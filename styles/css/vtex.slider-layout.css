@@ -1,3 +1,8 @@
 .sliderArrows {
   color: #fff;
 }
+
+.sliderLayoutContainer--slider-about-us{
+  padding-left: 200px;
+  padding-right: 200px;
+}

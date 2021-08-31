@@ -4,6 +4,7 @@
             "text": "### Por que a ACCT?<span>_</span>",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
+            "font-family": "Open Sans, sans-serif",
             "blockClass": "por-que-acct"
         }
     },
@@ -43,6 +44,7 @@
             "text": "Engenharia de Dados de Alta Complexidade",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
+            "font-family": "Open Sans, sans-serif",
             "blockClass": "blockclass-por-que-acct"
         }
     },
@@ -68,6 +70,7 @@
             "text": "Habilidades Técnicas",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
+            "font-family": "Open Sans, sans-serif",
             "blockClass": "blockclass-por-que-acct"
         }
     },
@@ -93,6 +96,7 @@
             "text": "Líder de Mercado em Implementações VTEX IO",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
+            "font-family": "Open Sans, sans-serif",
             "blockClass": "blockclass-por-que-acct"
         }
     },
@@ -118,6 +122,7 @@
             "text": "Excelente Suporte ao Cliente",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
+            "font-family": "Open Sans, sans-serif",
             "blockClass": "blockclass-por-que-acct"
         }
     },
@@ -143,6 +148,7 @@
             "text": "Segurança e Confiabilidade",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
+            "font-family": "Open Sans, sans-serif",
             "blockClass": "blockclass-por-que-acct"
         }
     }

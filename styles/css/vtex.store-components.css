@@ -98,6 +98,7 @@
 
 .infoCardHeadline--info-card-time{
   font-size: 16px;
+  font-family: "Open Sans, sans-serif";
 }
 
 .infoCardSubhead--info-card-time{
@@ -105,6 +106,13 @@
   margin-top: 0px;
 }
 
-.containet{
-  padding-left: 300px;
+.container{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.infoCardTextContainer--info-card-time{
+  padding-bottom: 200px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
