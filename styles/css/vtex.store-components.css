@@ -39,6 +39,7 @@
   opacity: 70%;
   -webkit-transform: scale(0.92);
   transform: scale(0.92);
+  transition: 1s;
 }
 
 .imageElement--image-carrefour,
@@ -64,7 +65,45 @@
 .imageElement--image-universal:hover,
 .imageElement--image-decathlon:hover,
 .imageElement--image-cea:hover {
-  filter: none;
+  filter: grayscale(0);
+  opacity: 80%;
+  -webkit-transform: scale(0.92);
+  transform: scale(0.92);
+  transition: 1s;
+}
+
+.imageElement--image-time{
+  border-radius: 50%;
+}
+
+.infoCardContainer--info-card-time{
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  text-align: center;
+  width: 100%;
+
+}
+
+.infoCardImage--info-card-time{
+  order: 1;
+  border-radius: 50%;
+  border: #dedede 3px solid;
+}
+
+.infoCardTextContainer--info-card-time{
+  order: 2;
+  height: 100px;
+}
+
+
+.infoCardHeadline--info-card-time{
+  font-size: 16px;
+}
+
+.infoCardSubhead--info-card-time{
+  font-size: 13px;
+  margin-top: 0px;
 }
 
 .infoCardContainer--gettoknow-infocard {
@@ -106,3 +145,4 @@
   padding-left: 0px;
   padding-right: 0px;
 }
+

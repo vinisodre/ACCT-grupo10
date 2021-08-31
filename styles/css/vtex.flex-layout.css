@@ -67,3 +67,9 @@ adicionar o titulo das abas dentro do header ainda -Brendon */
   flex-direction: column;
   align-items: center;
 }
+
+.flexRow--footer{
+  background-color: #f8f8f8;
+  border: 2px solid #dddddd;
+  padding-top: 20px;
+}
