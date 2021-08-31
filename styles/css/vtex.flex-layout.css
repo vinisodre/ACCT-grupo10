@@ -57,7 +57,13 @@ adicionar o titulo das abas dentro do header ainda -Brendon */
   margin: 10px !important;
 }
 
-.flexColChild--col-acctimage{
+.flexColChild--col-acctimage {
   margin-left: auto;
   margin-right: auto; 
+}
+
+.flexRowContent--trusted-by {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

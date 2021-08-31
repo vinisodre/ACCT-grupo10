@@ -24,22 +24,21 @@
   font-weight: bold;
 }
 
-.imageElement--acctimage{
+.imageElement--acctimage {
   width: 100%;
   height: 100%;
 }
 
- /* css da parte do "por que ACCT_" */
+/* css da parte do "por que ACCT_" */
 
 .imageElement--icone-engenharia:hover,
 .imageElement--icone-habilidades:hover,
 .imageElement--icone-mercado:hover,
 .imageElement--icone-suporte:hover,
-.imageElement--icone-seguranca:hover{
+.imageElement--icone-seguranca:hover {
   opacity: 70%;
   -webkit-transform: scale(0.92);
   transform: scale(0.92);
-  transition: 1s;
 }
 
 .imageElement--image-carrefour,
@@ -51,7 +50,7 @@
 .imageElement--image-whirlpool,
 .imageElement--image-universal,
 .imageElement--image-decathlon,
-.imageElement--image-cea{
+.imageElement--image-cea {
   filter: grayscale(1);
 }
 
@@ -64,46 +63,37 @@
 .imageElement--image-whirlpool:hover,
 .imageElement--image-universal:hover,
 .imageElement--image-decathlon:hover,
-.imageElement--image-cea:hover{
-  filter: grayscale(0);
-  opacity: 80%;
-  -webkit-transform: scale(0.92);
-  transform: scale(0.92);
-  transition: 1s;
+.imageElement--image-cea:hover {
+  filter: none;
 }
 
-.imageElement--image-time{
-  border-radius: 50%;
+.infoCardContainer--gettoknow-infocard {
+  justify-content: center;
 }
 
-.infoCardContainer--info-card-time{
-  display: flex;
-  flex-direction: column;
-  align-items: center !important;
-  text-align: center;
+.infoCardTextContainer--gettoknow-infocard {
   width: 100%;
-
 }
 
-.infoCardImage--info-card-time{
-  order: 1;
-  border-radius: 50%;
-  border: #dedede 3px solid;
+.infoCardHeadline--gettoknow-infocard {
+  text-align: center;
+  font-size: 2rem;
+  color: #040404 !important;
+  font-weight: 500;
+  font-family: 'Roboto';
 }
-
-.infoCardTextContainer--info-card-time{
-  order: 2;
-  height: 100px;
-}
-
 .infoCardHeadline--info-card-time{
   font-size: 16px;
   font-family: "Open Sans, sans-serif";
 }
 
-.infoCardSubhead--info-card-time{
-  font-size: 13px;
-  margin-top: 0px;
+.infoCardHeadline--gettoknow-infocard:last-child {
+  color: #fcc200;
+  font-weight: 700;
+}
+
+.imageElement--image-time {
+  border-radius: 50%;
 }
 
 .container{
