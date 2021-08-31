@@ -1,7 +1,9 @@
-.element{
-    max-width: 60%;
-}
+
 
 .brandName{
     font-weight: bolder;
+}
+
+.clearLink--defaultSearch{
+    align-items: center;
 }
