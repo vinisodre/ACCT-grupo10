@@ -17,7 +17,7 @@ const leadForm = () => {
             nome: data.name,
             email: data.email,
             telefone: parseInt(data.phone),
-            cpf: parseInt(data.cpf)
+            cpf: data.cpf
         })
         .then(res=>{
             console.log(res.data)
